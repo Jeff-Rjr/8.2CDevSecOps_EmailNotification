@@ -11,6 +11,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building the project...'
+                echo 'Added new comment for testing...'
             }
         }
 
