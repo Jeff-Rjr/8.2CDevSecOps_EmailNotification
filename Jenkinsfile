@@ -10,14 +10,14 @@ pipeline {
 
         stage('Build') {
             steps {
-                echo 'Building the project...'
-                echo 'New comment for testing email...'
+                echo 'Building the project....'
+                echo 'New comment for testing email....'
             }
         }
 
         stage('Test') {
             steps {
-                echo 'Running tests...'
+                echo 'Running tests....'
             }
             post {
                 success {
@@ -41,7 +41,7 @@ pipeline {
 
         stage('Security Scan') {
             steps {
-                echo 'Running security scan...'
+                echo 'Running security scan....'
             }
             post {
                 success {
